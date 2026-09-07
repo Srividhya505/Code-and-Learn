@@ -55,6 +55,30 @@
 
 
 
+#4.
+# class Transport:
+#     def move(self):
+#         print("Transport is moving")
+# class Bus(Transport):
+#     def move(self):
+#         super().move()  # Reusing parent logic
+#         print("Bus is moving on road with passengers")
+# class Bike(Transport):
+#     def move(self):
+#         super().move()  # Reusing parent logic
+#         print("Bike is moving fast on two wheels")
+# t = Transport()
+# b = Bus()
+# k = Bike()
+# print("Transport")
+# t.move()
+# print("Bus")
+# b.move()
+# print("Bike")
+# k.move()
+
+
+
 #6.
 # class Payment:
 #     def process(self,amount):
@@ -73,32 +97,25 @@
 
 #7.
 # class Sorter:
-#     def strategy(self,obj)
+#     def strategy(self, obj):
 #         obj.logic()
-# l=[MS(),QS(),BS()]
+# class BS:
+#     def logic(self):
+#         print("Bubble Sort logic")
+#
+# class MS:
+#     def logic(self):
+#         print("Merge Sort logic")
+#
+# class QS:
+#     def logic(self):
+#         print("Quick Sort logic")
+# l = [MS(), QS(), BS()]
 # for i in l:
 #     Sorter().strategy(i)
 
 
-
-
-
-
-
-
-
-
-#8.
-class Account:
-    def withdraw(self):
-
-
-
-
-
-
-
-
+#8
 
 
 
@@ -129,24 +146,24 @@ class Account:
 
 
 #10.
-class Upi:
-    def payment(self,amount):
-        print(f"{amount} paid using upi")
-class card:
-    def pay(self,amount):
-        print(f"{amount} paid using card")
-class cash:
-    def pay(self,amount):
-        print(f"{amount} paid using cash")
-    def pay(obj,amount):
-        obj.pay(amount)
-    def pay(obj,amount):
-        if isinstance(obj,Upi):
-            obj.pay(amount)
-l=[Upi(),card(),cash()]
-for i in l:
-    pay(i,7000)
-    pay2(i,2000)
+# class Upi:
+#     def payment(self,amount):
+#         print(f"{amount} paid using upi")
+# class card:
+#     def pay(self,amount):
+#         print(f"{amount} paid using card")
+# class cash:
+#     def pay(self,amount):
+#         print(f"{amount} paid using cash")
+#     def pay(obj,amount):
+#         obj.pay(amount)
+#     def pay(obj,amount):
+#         if isinstance(obj,Upi):
+#             obj.pay(amount)
+# l=[Upi(),card(),cash()]
+# for i in l:
+#     pay(i,7000)
+#     pay2(i,2000)
 
 
 
