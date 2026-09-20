@@ -8,7 +8,7 @@ class Attendance:
         if self.roll_no < len(self.students):
             name=self.students[self.roll_no]
             self.roll_no+=1
-            return name
+            return name 
         else:
             raise StopIteration
 st1=Attendance(["vidhya","prathyu","nandu","cherry"])

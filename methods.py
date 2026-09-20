@@ -127,6 +127,7 @@ print(s1.name)
 s1.marks = 120
 
 
+
 class Rectangle:
     def __init__(self, length, breadth):
         self.length = length
@@ -165,6 +166,9 @@ print(r1.color)
 r1.length = -5
 
 
+
+
+
 class Employee:
     def __init__(self, name, salary):
         self.name = name
@@ -201,6 +205,8 @@ print("Salary not equal:", e1 != e2)
 print("e1 salary <= e2 salary:", e1 <= e2)
 print(e1.name)
 e1.salary = 5000
+
+
 
 
 class Book:
@@ -243,6 +249,8 @@ b1.title = ""
 b1.pages = -50
 
 
+
+
 class CartItem:
     def __init__(self, item_name, price, quantity):
         self.item_name = item_name
@@ -282,6 +290,8 @@ print(c1.item_name)
 c1.quantity = 0
 
 
+
+
 class TimeDuration:
     def __init__(self, hours, minutes):
         self.hours = hours
@@ -317,6 +327,8 @@ print("Subtraction:", t1 - t2)
 print("Equal:", t1 == t2)
 print("t1 is greater:", t1 > t2)
 print(t1.seconds)
+
+
 
 
 class Laptop:
@@ -357,6 +369,8 @@ print("Same RAM:", l1 == l2)
 print(l1.brand)
 l1.ram = 0
 l1.price = -5000
+
+
 
 
 class Player:
